@@ -8,7 +8,7 @@ Esse é um projeto open source com o propósito de auxiliar profissionais a comp
 
 ### Como Usar
 
-- Acesse [pjxclt.com](https://pjxclt.com) ou [cltvspj.com](https://cltvspj.com) e insira as informações a serem comparadas. 
+- Acesse <a href="https://pjxclt.com" target="_blank">pjxclt.com</a> ou <a href="https://cltvspj.com" target="_blank">cltvspj.com</a> e insira as informações a serem comparadas. 
 
 
 ### Contribuição
@@ -22,4 +22,4 @@ Se você encontrar bugs ou tiver sugestões de aprimoramento, por favor abra uma
 
 ### Licença
 
-Este projeto é licenciado sob a [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.html). Consulte o arquivo [LICENSE](LICENSE) para detalhes.
+Este projeto é licenciado sob a <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GNU GPLv3</a>. Consulte o arquivo [LICENSE](LICENSE) para detalhes.
