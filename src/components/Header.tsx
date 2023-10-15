@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <header className="bg-neutral-200 dark:bg-neutral-700 py-8 relative">
-      <button className="absolute right-20 top-1/2 transform -translate-y-1/2 p-2 rounded-md hover:bg-neutral-800 dark:hover:bg-neutral-100 dark:text-white transition"
+      <button className="absolute right-20 top-1/2 transform -translate-y-1/2 p-2 rounded-md hover:bg-neutral-500 dark:hover:bg-neutral-100 dark:text-white transition"
         onClick={() => setDarkMode(!darkMode)}>
         <img src={darkMode ? LightModeIcon : DarkModeIcon} width="32" height="32" title={darkMode ? "Modo claro" : "Modo escuro"} alt="Ativar/desativar modo escuro" />
       </button>
