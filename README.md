@@ -37,7 +37,7 @@ Se você encontrar bugs ou tiver sugestões de aprimoramento, por favor [abra um
 <table>
     <tr>
         <td><img src="./src/assets/profit.png" width="24" height="24"/></td>
-        <td><a target="_blank" href="https://www.flaticon.com/free-icon/profit_6020518">Profit</a> por <a target="_blank" href="https://www.flaticon.com/">Flaticon</a></td>
+        <td><a target="_blank" href="https://www.flaticon.com/free-icon/profit_6020518">Profit</a> por <a target="_blank" href="https://www.flaticon.com/authors/uniconlabs">Uniconlabs</a></td>
     </tr>
     <tr>
         <td><img src="./src/assets/icons8-sun.svg" width="24" height="24"/></td>

@@ -6,15 +6,13 @@ const Header = () => {
   const { darkMode, setDarkMode } = useDarkMode();
 
   return (
-    <header className="bg-neutral-200 dark:bg-neutral-700 py-8 relative">
-      <button className="absolute right-20 top-1/2 transform -translate-y-1/2 p-2 rounded-md hover:bg-neutral-500 dark:hover:bg-neutral-100 dark:text-white transition"
+    <div className="bg-slate-100 dark:bg-neutral-700 py-8 flex justify-between items-center pl-20 space-x-4 pr-5 sm:pr-20">
+      <h1 className="text-4xl dark:text-white">PJ x CLT</h1>
+      <button className="p-2 rounded-md hover:bg-gray-500 dark:hover:bg-yellow-100 dark:text-white transition"
         onClick={() => setDarkMode(!darkMode)}>
         <img src={darkMode ? LightModeIcon : DarkModeIcon} width="32" height="32" title={darkMode ? "Modo claro" : "Modo escuro"} alt="Ativar/desativar modo escuro" />
       </button>
-      <div className="text-center">
-        <h1 className="text-5xl dark:text-white font-bold">PJ x CLT</h1>
-      </div>
-    </header>
+    </div>
   )
 };
 

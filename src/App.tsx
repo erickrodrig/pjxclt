@@ -7,9 +7,11 @@ import { DarkModeProvider } from './contexts/DarkModeContext';
 function App() {
   return (
     <DarkModeProvider>
-      <Header />
-      <Body />
-      <Footer />
+      <div className='flex flex-col min-h-screen'>
+        <Header />
+        <Body />
+        <Footer />
+      </div>
     </DarkModeProvider>
   )
 }
