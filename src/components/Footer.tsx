@@ -6,8 +6,7 @@ const Footer = () => {
   const { darkMode } = useDarkMode();
 
   return (
-    <div className="bg-neutral-200 dark:bg-neutral-700 flex justify-between items-center px-5 sm:px-20 py-8">
-      <div></div> {/* placeholder div */}
+        <p className="dark:text-white">© 2023 github.com/erickrodrig/pjxclt</p>
       <a href="https://github.com/erickrodrig/pjxclt" target="_blank" rel="noreferrer" title="Contribua!">
         <img src={darkMode ? GitHubInvertocatIconWhite : GitHubInvertocatIcon} width="48" height="48" className="hover:bg-white dark:hover:bg-gray-github rounded-full" />
       </a>
