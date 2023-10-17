@@ -9,7 +9,13 @@ export default {
     fontFamily: {
       'sans': ['Gabarito']
     },
-    extend: {},
+    extend: {
+      colors: {
+        gray: {
+          github: '#24292f',
+        }
+      }
+    },
   },
   plugins: [],
 }

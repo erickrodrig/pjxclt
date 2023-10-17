@@ -6,11 +6,13 @@ const Footer = () => {
   const { darkMode } = useDarkMode();
 
   return (
-    <footer className="bg-neutral-200 dark:bg-neutral-700 py-12">
-      <a href="https://github.com/erickrodrig/pjxclt" target="_blank" rel="noreferrer" title="GitHub" className="absolute right-20 -translate-y-1/2 p-2 ">
-        <img src={darkMode ? GitHubInvertocatIconWhite : GitHubInvertocatIcon} width="48" height="48" />
+    <div className="bg-neutral-200 dark:bg-neutral-700 flex justify-between items-center px-5 sm:px-20 py-8">
+      <div></div> {/* placeholder div */}
+      <a href="https://github.com/erickrodrig/pjxclt" target="_blank" rel="noreferrer" title="Contribua!">
+        <img src={darkMode ? GitHubInvertocatIconWhite : GitHubInvertocatIcon} width="48" height="48" className="hover:bg-white dark:hover:bg-gray-github rounded-full" />
       </a>
-    </footer>
+    </div>
+
   )
 };
 
