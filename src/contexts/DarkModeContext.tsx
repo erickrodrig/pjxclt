@@ -18,7 +18,7 @@ const getInitialMode = () => {
   } catch (error) {
     console.error("Error accessing or parsing web storage:", error);
   }
-  return storedPreference !== null ? JSON.parse(storedPreference) : false;
+  return storedPreference !== null ? JSON.parse(storedPreference) : true;
 }
 
 export const DarkModeProvider = ({ children }: DarkModeProviderProps) => {
@@ -29,6 +29,12 @@ export const DarkModeProvider = ({ children }: DarkModeProviderProps) => {
       document.documentElement.classList.add('dark');
     } else {
       document.documentElement.classList.remove('dark');
+    }
+
+    try {
+      localStorage.setItem('darkMode', JSON.stringify(darkMode));
+    } catch (error) {
+      console.error("Error setting value in web storage:", error);
     }
   }, [darkMode]);
 
