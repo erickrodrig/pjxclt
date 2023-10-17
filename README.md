@@ -1,4 +1,4 @@
-## Calculadora de Comparação PJ x CLT (Work in progress)
+## Calculadora PJ x CLT (Work in progress)
 
 <!-- ~imagem ilustrativa~ -->
 
@@ -34,12 +34,28 @@ Se você encontrar bugs ou tiver sugestões de aprimoramento, por favor [abra um
 
 ### Ícones utilizados
 
-|     |     |
-| --- | --- |
-| <img src="./src/assets/profit.png" width="24" height="24"/> | <a target="_blank" href="https://www.flaticon.com/free-icon/profit_6020518">Profit</a> por <a target="_blank" href="https://www.flaticon.com/">Flaticon</a> |
-| <img src="./src/assets/icons8-sun.svg" width="24" height="24"/> | <a target="_blank" href="https://icons8.com/icon/15352/sun">Sun</a> por <a target="_blank" href="https://icons8.com">Icons8</a> |
-| <img src="./src/assets/icons8-moon-48.png" width="24" height="24"/> | <a target="_blank" href="https://icons8.com/icon/OvZGKMO8vAju/moon">Moon</a> por <a target="_blank" href="https://icons8.com">Icons8</a> |
-| <img src="./src/assets/github-mark.svg" width="24" height="24"/> | <a target="_blank" href="https://github.com/logos">Invertocat</a> por GitHub |
+<table>
+    <tr>
+        <td><img src="./src/assets/profit.png" width="24" height="24"/></td>
+        <td><a target="_blank" href="https://www.flaticon.com/free-icon/profit_6020518">Profit</a> por <a target="_blank" href="https://www.flaticon.com/">Flaticon</a></td>
+    </tr>
+    <tr>
+        <td><img src="./src/assets/icons8-sun.svg" width="24" height="24"/></td>
+        <td><a target="_blank" href="https://icons8.com/icon/15352/sun">Sun</a> por <a target="_blank" href="https://icons8.com">Icons8</a></td>
+    </tr>
+    <tr>
+        <td><img src="./src/assets/icons8-moon-48.png" width="24" height="24"/></td>
+        <td><a target="_blank" href="https://icons8.com/icon/OvZGKMO8vAju/moon">Moon</a> por <a target="_blank" href="https://icons8.com">Icons8</a></td>
+    </tr>
+    <tr>
+        <td><img src="./src/assets/github-mark.svg" width="24" height="24"/></td>
+        <td rowspan="2"><a target="_blank" href="https://github.com/logos">Invertocat</a> por GitHub</td>
+    </tr>
+      <tr>
+        <td><img src="./src/assets/github-mark-white.svg" width="24" height="24"/></td>
+    </tr>
+</table>
+
 
 ### Licença
 
