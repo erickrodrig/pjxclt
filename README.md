@@ -17,42 +17,53 @@ Se você encontrar bugs ou tiver sugestões de aprimoramento, por favor [abra um
 
 1 - Clone o repositório: 
 
-```git clone git@github.com:erickrodrig/pjxclt.git```
+```
+git clone git@github.com:erickrodrig/pjxclt.git
+```
 
 2 - Entre no diretório: 
 
-```cd pjxclt```
+```
+cd pjxclt
+```
 
 3 - Instale as dependências:
 
-```npm i```
+```
+npm i
+```
 
 4 - Execute o programa: 
 
-```npm start```
+```
+npm start
+```
 
 
-### Ícones utilizados
+### Assets utilizados
 
 <table>
     <tr>
-        <td><img src="./src/assets/profit.png" width="24" height="24"/></td>
-        <td><a target="_blank" href="https://www.flaticon.com/free-icon/profit_6020518">Profit</a> por <a target="_blank" href="https://www.flaticon.com/authors/uniconlabs">Uniconlabs</a></td>
+        <td><img src="./src/assets/images/profit.png" width="24" height="24"/></td>
+        <td><a target="_blank" href="https://www.flaticon.com/free-icon/profit_6020518">Profit</a> por <a target="_blank" href="https://www.flaticon.com/authors/uniconlabs">Uniconlabs | Flaticon</a></td>
     </tr>
     <tr>
-        <td><img src="./src/assets/icons8-sun.svg" width="24" height="24"/></td>
+        <td><img src="./src/assets/images/icons8-sun.svg" width="24" height="24"/></td>
         <td><a target="_blank" href="https://icons8.com/icon/15352/sun">Sun</a> por <a target="_blank" href="https://icons8.com">Icons8</a></td>
     </tr>
     <tr>
-        <td><img src="./src/assets/icons8-moon-48.png" width="24" height="24"/></td>
+        <td><img src="./src/assets/images/icons8-moon-48.png" width="24" height="24"/></td>
         <td><a target="_blank" href="https://icons8.com/icon/OvZGKMO8vAju/moon">Moon</a> por <a target="_blank" href="https://icons8.com">Icons8</a></td>
     </tr>
     <tr>
-        <td><img src="./src/assets/github-mark.svg" width="24" height="24"/></td>
+        <td><img src="./src/assets/images/github-mark.svg" width="24" height="24"/></td>
         <td rowspan="2"><a target="_blank" href="https://github.com/logos">Invertocat</a> por GitHub</td>
     </tr>
-      <tr>
-        <td><img src="./src/assets/github-mark-white.svg" width="24" height="24"/></td>
+    <tr>
+        <td><img src="./src/assets/images/github-mark-white.svg" width="24" height="24"/></td>
+    </tr>
+    <tr>
+        <td colspan="2">Fonte <a target="_blank" href="https://fonts.google.com/specimen/Gabarito">Gabarito</a> por Google Fonts</td>
     </tr>
 </table>
 

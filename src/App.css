@@ -7,3 +7,45 @@
     @apply bg-inherit;
   }
 }
+
+@font-face {
+  font-family: 'Gabarito-Regular';
+  src: url('./assets/fonts/gabarito/Gabarito-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gabarito-Medium';
+  src: url('./assets/fonts/gabarito/Gabarito-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gabarito-SemiBold';
+  src: url('./assets/fonts/gabarito/Gabarito-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gabarito-Bold';
+  src: url('./assets/fonts/gabarito/Gabarito-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gabarito-ExtraBold';
+  src: url('./assets/fonts/gabarito/Gabarito-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gabarito-Black';
+  src: url('./assets/fonts/gabarito/Gabarito-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
