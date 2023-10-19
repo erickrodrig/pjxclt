@@ -7,8 +7,8 @@ const Header = () => {
 
   return (
     <div className="bg-slate-100 dark:bg-neutral-700 py-8 flex justify-between items-center pl-20 space-x-4 pr-5 sm:pr-20">
-      <h1 className="font-gabarito-medium text-4xl dark:text-white">PJ x CLT</h1>
-      <button className="p-2 rounded-md hover:bg-gray-500 dark:hover:bg-yellow-100 dark:text-white transition"
+      <h1 className="font-medium text-4xl dark:text-white">PJ x CLT</h1>
+      <button className="p-2 rounded-xl hover:bg-gray-500 dark:hover:bg-yellow-100 dark:text-white transition"
         onClick={() => setDarkMode(!darkMode)}>
         <img src={darkMode ? LightModeIcon : DarkModeIcon} width="32" height="32" title={darkMode ? "Modo claro" : "Modo escuro"} alt="Ativar/desativar modo escuro" />
       </button>

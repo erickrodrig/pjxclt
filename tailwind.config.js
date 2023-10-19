@@ -7,12 +7,7 @@ export default {
   ],
   theme: {
     fontFamily: {
-      'gabarito': ['Gabarito-Regular', 'arial'],
-      'gabarito-medium': ['Gabarito-Medium', 'arial'],
-      'gabarito-semibold': ['Gabarito-SemiBold', 'arial'],
-      'gabarito-bold': ['Gabarito-Bold', 'arial'],
-      'gabarito-extrabold': ['Gabarito-ExtraBold', 'arial'],
-      'gabarito-black': ['Gabarito-Black', 'arial'],
+      'gabarito': ['Gabarito', 'arial'],
     },
     extend: {},
   },
