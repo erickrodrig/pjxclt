@@ -7,3 +7,10 @@
     @apply bg-inherit;
   }
 }
+
+@font-face {
+  font-family: 'Gabarito';
+  src: url('./assets/fonts/gabarito/Gabarito-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}

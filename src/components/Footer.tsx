@@ -1,6 +1,6 @@
 import { useDarkMode } from "../contexts/DarkModeContext";
-import GitHubInvertocatIcon from "../assets/github-mark.svg";
-import GitHubInvertocatIconWhite from "../assets/github-mark-white.svg";
+import GitHubInvertocatIcon from "../assets/images/github-mark.svg";
+import GitHubInvertocatIconWhite from "../assets/images/github-mark-white.svg";
 
 const Footer = () => {
   const { darkMode } = useDarkMode();

@@ -7,15 +7,9 @@ export default {
   ],
   theme: {
     fontFamily: {
-      'sans': ['Gabarito']
+      'gabarito': ['Gabarito', 'arial'],
     },
-    extend: {
-      colors: {
-        gray: {
-          github: '#24292f',
-        }
-      }
-    },
+    extend: {},
   },
   plugins: [],
 }
