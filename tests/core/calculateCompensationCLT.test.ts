@@ -23,19 +23,19 @@ describe('calculateCompCLT', () => {
     {
       description: 'when bonus value is negative',
       input: {
-        dependents: -2.5,
+        bonusMultiplier: -2.5,
       }
     },
     {
       description: 'when additional value is negative',
       input: {
-        dependents: -600000,
+        additionalAnnualCompensation: -600000,
       }
     },
     {
       description: 'when days off value is negative',
       input: {
-        dependents: -3,
+        daysOff: -3,
       }
     },
   ]
