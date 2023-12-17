@@ -23,14 +23,16 @@ Hosting:
 
 ## Build & deploy
 
-O projeto mira na simplicidade e não segue à risca nenhum padrão de indústria. Como a hospedagem está sendo feita no Cloudflare Pages, cada PR mergeada na branch principal, é automáticamente gerado um build & deploy diretamente pro site [pjxclt.com](https://pjxclt.com), simplificando o processo de atualização e manutenção sem se preocupar com releases, já que se trata de algo simples. 
+O projeto mira na simplicidade e não segue à risca nenhum padrão de indústria. Como a hospedagem está sendo feita no Cloudflare Pages, para cada PR mergeada na branch principal, é automáticamente gerado um build & deploy diretamente pro site [pjxclt.com](https://pjxclt.com), simplificando o processo de atualização e manutenção sem se preocupar com releases, já que se trata de algo simples. 
 
 ## Desenvolvendo
 
 1. Faça um fork do repositório:
 
   <p align="center">
-    <img src="./src/assets/images/fork.png"/>
+    <a href="https://github.com/erickrodrig/pjxclt/fork" target="_blank">
+        <img src="./src/assets/images/fork.png"/>
+    </a>
   </p>
 
 2.  Clone o seu repositório: 

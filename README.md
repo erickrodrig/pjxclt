@@ -2,21 +2,12 @@
 <img src="./src/assets/images/profit.png" width="30%"/>
 </p>
 <p align="center" style="font-size: 3rem">
-Calculadora PJ x CLT
+Calculadora PJ x CLT (work in progress)
 </p>
 
 ## Visão Geral
 
 Esse é um projeto open source com o propósito de auxiliar profissionais a comparar e entender a remuneração mensal e anual dessas duas modalidade de contrato, e ajudar o trabalhador na tomada de decisão.
-
-## TODOs:
-
-- [ ] grafico mostrando diferenca salarial no final (chart.js)
-    - Bar chart
-    - Doughnut chart
-    - Radar chart
-- [ ] tooltip mostrando o que daria pra comprar com o imposto anual
-      (principalmente CLT), ex: mostrando X coisas ou um carro 0km
 
 ## Como Usar
 
