@@ -1,22 +1,21 @@
 import './App.css'
-import Header from './components/Header';
-import Body from './components/Body';
-import Footer from './components/Footer';
-import { DarkModeProvider } from './contexts/DarkModeContext';
-import InputTable from './components/InputTable';
+import { Header } from './components/Header';
+import { Footer } from './components/Footer';
+import { ComparisonTable } from './components/ComparisonTable';
+import { useEffect } from 'react';
 
-function App() {
+export default function App() {
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", localStorage.getItem("theme") || 'dark');
+  }, []);
+
   return (
-    <DarkModeProvider>
+    <>
       <div className='flex flex-col min-h-screen'>
         <Header />
-        <Body>
-          <InputTable />
-        </Body>
+        <ComparisonTable />
         <Footer />
       </div>
-    </DarkModeProvider>
+    </>
   )
 }
-
-export default App

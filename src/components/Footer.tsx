@@ -1,21 +1,27 @@
-import { useDarkMode } from "../contexts/DarkModeContext";
-import GitHubInvertocatIcon from "../assets/images/github-mark.svg";
-import GitHubInvertocatIconWhite from "../assets/images/github-mark-white.svg";
+import { useColorMode } from "@chakra-ui/react";
 
-const Footer = () => {
-  const { darkMode } = useDarkMode();
+export function Footer() {
+  const { colorMode } = useColorMode();
+
+  const hover =
+    colorMode === 'dark' ?
+      'hover:from-indigo-500 hover:to-pink-500' :
+      'hover:from-pink-500 hover:to-yellow-500';
 
   return (
-    <div className="bg-slate-100 dark:bg-neutral-700 flex justify-center items-center px-5 sm:px-20 py-8">
-      <div className="flex items-center space-x-4">
-        <p className="dark:text-white">© 2023 github.com/erickrodrig/pjxclt</p>
-        <a href="https://github.com/erickrodrig/pjxclt" target="_blank" rel="noreferrer" title="Contribua!">
-          <img src={darkMode ? GitHubInvertocatIconWhite : GitHubInvertocatIcon} width="40" height="40" className="bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500 dark:hover:from-indigo-500 dark:hover:to-pink-500 rounded-full" />
+    <div className="flex justify-center items-center px-5 sm:px-20 py-2">
+      <div className="flex items-center gap-3">
+        <p className="text-sm">© 2023 pjxclt.com </p>
+        <a className="flex items-center gap-4" href="https://github.com/erickrodrig/pjxclt" target="_blank" title="Contribua">
+          <svg xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            viewBox="0 0 24 24"
+            className={`fill-current rounded-full bg-gradient-to-r ${hover}`}>
+            <path d="m12.004927,0.101846c-6.593954,0 -11.924524,5.459804 -11.924524,12.214326c0,5.39925 3.41548,9.969602 8.153656,11.587193c0.592394,0.121605 0.809386,-0.262815 0.809386,-0.586184c0,-0.283165 -0.019527,-1.25377 -0.019527,-2.265074c-3.317114,0.728139 -4.007874,-1.456031 -4.007874,-1.456031c-0.533081,-1.415578 -1.32294,-1.7794 -1.32294,-1.7794c-1.08569,-0.748241 0.079084,-0.748241 0.079084,-0.748241c1.204315,0.080904 1.836251,1.25377 1.836251,1.25377c1.065919,1.860304 2.783544,1.334674 3.474549,1.011056c0.09861,-0.788694 0.4147,-1.334674 0.750317,-1.637941c-2.645636,-0.283165 -5.42918,-1.334674 -5.42918,-6.026383c0,-1.334674 0.473525,-2.426635 1.223842,-3.275883c-0.118381,-0.303267 -0.533081,-1.557285 0.118625,-3.235678c0,0 1.00685,-0.323617 3.277084,1.25377a11.464668,11.656682 0 0 1 2.981253,-0.404522c1.00685,0 2.033227,0.141707 2.981009,0.404522c2.270478,-1.577387 3.277328,-1.25377 3.277328,-1.25377c0.651707,1.678393 0.236762,2.932411 0.118381,3.235678c0.770088,0.849248 1.224086,1.941209 1.224086,3.275883c0,4.691709 -2.783544,5.722867 -5.448951,6.026383c0.434471,0.384172 0.809386,1.112063 0.809386,2.264826c0,1.637941 -0.019527,2.952513 -0.019527,3.356787c0,0.323617 0.217236,0.708037 0.809386,0.586681c4.738176,-1.618087 8.153656,-6.188192 8.153656,-11.587442c0.019527,-6.754522 -5.33057,-12.214326 -11.904753,-12.214326z">
+            </path>
+          </svg>
         </a>
       </div>
     </div>
-
   )
-};
-
-export default Footer;
+}

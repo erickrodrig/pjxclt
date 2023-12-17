@@ -1,16 +1,23 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@layer tailwind-base, tailwind-utilities;
 
-@layer base {
-  input {
-    @apply bg-inherit;
-  }
+@layer tailwind-base {
+  @tailwind base;
 }
 
-@font-face {
-  font-family: 'Gabarito';
-  src: url('./assets/fonts/gabarito/Gabarito-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
+
+::selection {
+  background: #b3b2ae;
+  border-radius: 10px;
+}
+
+::-moz-selection {
+  background: #b3b2ae;
+}
+
+img {
+  user-select: none;
 }
